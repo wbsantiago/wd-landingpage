@@ -40,6 +40,6 @@ h1 {
 .body-button-contact {
     height:  64px;
     width: 384px;
-    background: var(--gold-color);
-    color: var(--blue-color);
+    background: var(--red-color);
+    color: var(--white-color);
 }

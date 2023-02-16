@@ -1,33 +1,44 @@
 .articles {
     max-width: 1280px;
-    margin: auto;
+    margin: 64px auto 0 auto;
     color: var(--black-color);
     height: 100vh;
     /* gap: 16px; */
 }
 
-.first-article {
+.first-article, .second-article {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 80vh
+    height: 65vh
 }
 
-.title-first-article, .text-first-article {
+.title-first-article, .text-first-article, .text-second-article, .title-second-article {
     font-weight: 300;
 }
 
-.title-first-article {
+.title-first-article, .title-second-article {
     font-size: 36px;
     margin-bottom: 24px;
     width: 500px;
 }
 
-.text-first-article {
-    width: 400px;
-    font-size: 18px;
+.text-first-article, .text-second-article {
+    width: 500px;
+    font-size: 22px;
+    line-height: 1.6;
 }
 
 .image-work {
-    width: 600px;
+    width: 700px;
+}
+
+.image-work2 {
+    border: solid 2px var(--blue-color);
+    border-radius: 8px;
+    width: 650px;
+}
+
+.bold-text {
+    font-weight: bold;  
 }
