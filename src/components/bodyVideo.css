@@ -1,0 +1,45 @@
+.body-top-div {
+    max-width: 1280px;
+    color: var(--white-color);
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 192px;
+    height: calc(100vh - 96px);
+}
+
+.body-top-text {
+    max-width: 800px;
+    font-size: 72px;
+    margin: 192px 0 52px 0;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 72px;
+    text-align: left;
+}
+
+.body-button-contact, .body-button-projects {
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.body-button-projects {
+    /* margin-right: 24px; */
+    height: 64px;
+    width: 192px;
+    margin-right: 24px;
+}
+
+.body-button-contact {
+    height:  64px;
+    width: 384px;
+    background: var(--gold-color);
+    color: var(--blue-color);
+}
