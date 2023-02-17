@@ -6,7 +6,7 @@ import houseImage from "../assets/casa-imagem.png"
 function Projects() {
     return (
        
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="mid-box">
                 <div className="mid-box-intern">
                     <div className="mid-box-intern-text">
@@ -19,28 +19,29 @@ function Projects() {
             <div className="projects-block">
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Sobrado Residencial</h3>
-                    <p className="">Sobrado com 3 suítes, garagem subterrânea p/ 2 carros, área gourmet integrada com sala e cozinha, churrasqueira, piscina e deck. Projeto moderno e funcional.</p>
+                    <p className="projects-text">Sobrado com 3 suítes, garagem subterrânea para 2 carros, área gourmet integrada com sala e cozinha, churrasqueira, piscina e deck. Projeto moderno e funcional.</p>
+                    <p className="projects-text">Nossa equipe de profissionais altamente qualificados está pronta para ouvir suas ideias e transformá-las em realidade. Utilizamos técnicas avançadas de planejamento e design para criar projetos que atendam a todas as suas expectativas, desde a escolha dos materiais até a disposição dos móveis.</p>
                 </div>
                 <img src={sobradoImage} alt="imagem do projeto" className="projects-images"/>
             </div>
             <div className="projects-block">
+                <img src={houseImage} alt="imagem do projeto" className="projects-images" />
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Residência Térrea</h3>
-                    <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
+                    <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
                 </div>
-                <img src={houseImage} alt="imagem do projeto" className="projects-images" />
             </div>
             <div className="projects-block">
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Título do projeto</h3>
-                    <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
+                    <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
                 </div>
                 <img src={textImage} alt="imagem do projeto" className="projects-images" />
             </div>
             <div className="projects-block">
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Título do projeto</h3>
-                    <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
+                    <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
                 </div>
                 <img src={textImage} alt="imagem do projeto" className="projects-images" />
             </div>
