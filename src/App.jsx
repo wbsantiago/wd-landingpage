@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header.jsx'
 import BodyVideo from "./components/BodyVideo.jsx"
 import Articles from "./components/Articles.jsx"
+import Projects from './components/Projects.jsx'
 import video from './assets/Video-Website-fast.mp4'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <div>
         <BodyVideo />
         <Articles />
+        <Projects />
       </div>
     </div>
   )
