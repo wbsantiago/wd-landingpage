@@ -30,6 +30,30 @@ a {
     text-transform: uppercase;
 }
 
+#navbar .navbar-link {
+    position: relative;
+    color: lightgray;
+}
+
+#navbar .navbar-link:after {
+    content: "";
+    position: absolute;
+    background-color: var(--red-color);
+    height: 2.5px;
+    left: 0;
+    width: 0;
+    bottom: -8px;
+    transition: 0.4s;
+}
+
+#navbar .navbar-link:hover:after {
+    width: 100%;
+}
+
+#navbar .navbar-link:hover {
+    color: white;
+}
+
 .header-logo {
     width: 8em;
 }

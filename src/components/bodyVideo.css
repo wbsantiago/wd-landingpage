@@ -28,13 +28,20 @@ h1 {
     font-size: 18px;
     font-style: italic;
     cursor: pointer;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 .body-button-projects {
-    /* margin-right: 24px; */
     height: 64px;
     width: 192px;
     margin-right: 24px;
+    background: lightgray;
+}
+
+.body-button-projects:hover {
+    background: var(--white-color);
 }
 
 .body-button-contact {
@@ -42,4 +49,12 @@ h1 {
     width: 384px;
     background: var(--red-color);
     color: var(--white-color);
+}
+
+.body-button-contact:hover {
+    background: rgba(180, 41, 53, 1);
+}
+
+.body-button-contact:active, .body-button-projects:active {
+    transform: scale(0.9);
 }

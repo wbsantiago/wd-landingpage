@@ -8,8 +8,8 @@ function BodyVideo() {
                 <p className='body-top-text'>Transformando seus sonhos em realidade!</p>
                 <h1>WD Arquitetura e Engenharia</h1>
                 <div className='body-buttons'>
-                    <button className='body-button-projects'>Projetos</button>
-                    <button className='body-button-contact'>Solicite um orçamento!</button>
+                    <a href="#projects"><input className='body-button-projects' value="Projetos" /></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=5543999876724&text&type=phone_number&app_absent=0"><input className='body-button-contact' value="Solicite um orçamento!" /></a>
                 </div>
             </div>
         </div>

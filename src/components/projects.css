@@ -23,14 +23,14 @@
     display: flex;
     align-items: center;
     font-size: 18px;
-    gap: 500px;
+    gap: 460px;
 }
 
 .mid-box-intern-description {
     padding-bottom: 24px;
 }
 
-.mix-box-btn {
+.mid-box-btn {
     border: 0;
     border-radius: 8px;
     font-size: 18px;
@@ -40,6 +40,20 @@
     background: var(--red-color);
     color: var(--white-color);
     text-align: center;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(255,255,255,0.3);
+}
+
+.mid-box-btn:hover {
+    background: rgba(180, 41, 53, 1);
+}
+
+.mid-box-btn:active {
+    transform: scale(0.9);
+}
+
+.projects-block:first-child {
+    margin-top: 36px;
 }
 
 .projects-block {
@@ -52,13 +66,13 @@
 }
 
 .projects-title {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     color: var(--red-color);
 }
 
 .projects-description {
-    margin: 0 16px;
+    margin: 0 auto;
 }
 
 .projects-subtitle {
@@ -76,5 +90,3 @@
     width: 600px;
     border-radius: 5px;
 }
-
-

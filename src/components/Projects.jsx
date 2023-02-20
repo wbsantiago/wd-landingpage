@@ -1,7 +1,8 @@
 import "./projects.css"
 import textImage from "../assets/espoço-projeto.png"
 import sobradoImage from "../assets/sobrado-imagem.png"
-import houseImage from "../assets/casa-imagem.png" 
+import houseImage from "../assets/casa-imagem.png"
+import geminada from "../assets/geminadas.png" 
 
 function Projects() {
     return (
@@ -11,16 +12,15 @@ function Projects() {
                 <div className="mid-box-intern">
                     <div className="mid-box-intern-text">
                         <p className="mid-box-intern-description">Trabalhamos com transparência e clareza em cada etapa do processo!</p>
-                        <h2 className="projects-title">Conheça alguns de nossos Projetos!</h2>
+                        <h2 className="projects-title">Conheça abaixo alguns de nossos Projetos!</h2>
                     </div>
-                        <a href="https://api.whatsapp.com/send/?phone=5543999876724&text&type=phone_number&app_absent=0" target="_blank"><input className="mix-box-btn" type="url" name="" id="" value="Mais informações" /></a>
+                        <a href="https://api.whatsapp.com/send/?phone=5543999876724&text&type=phone_number&app_absent=0" target="_blank"><input className="mid-box-btn" name="" id="" value="Mais informações" /></a>
                 </div>
             </div>
             <div className="projects-block">
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Sobrado Residencial</h3>
                     <p className="projects-text">Sobrado com 3 suítes, garagem subterrânea para 2 carros, área gourmet integrada com sala e cozinha, churrasqueira, piscina e deck. Projeto moderno e funcional.</p>
-                    <p className="projects-text">Nossa equipe de profissionais altamente qualificados está pronta para ouvir suas ideias e transformá-las em realidade. Utilizamos técnicas avançadas de planejamento e design para criar projetos que atendam a todas as suas expectativas, desde a escolha dos materiais até a disposição dos móveis.</p>
                 </div>
                 <img src={sobradoImage} alt="imagem do projeto" className="projects-images"/>
             </div>
@@ -28,22 +28,15 @@ function Projects() {
                 <img src={houseImage} alt="imagem do projeto" className="projects-images" />
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Residência Térrea</h3>
-                    <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
+                    <p className="projects-text">Residência térrea moderna com 2 quartos e 1 suíte master, cozinha conjugada com sala de jantar, sala de estar e área gourmet. A suíte é espaçosa e confortável, oferecendo privacidade e conforto para os moradores.</p>
                 </div>
             </div>
             <div className="projects-block">
                 <div className="projects-description">
-                    <h3 className="projects-subtitle">Título do projeto</h3>
-                    <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
+                    <h3 className="projects-subtitle">Casas Geminadas</h3>
+                    <p className="projects-text">Projeto incrível com 2 quartos e suíte é perfeita para quem busca um espaço aconchegante. Com uma área gourmet integrada à sala e cozinha, é o lugar ideal para receber amigos e familiares.</p>
                 </div>
-                <img src={textImage} alt="imagem do projeto" className="projects-images" />
-            </div>
-            <div className="projects-block">
-                <div className="projects-description">
-                    <h3 className="projects-subtitle">Título do projeto</h3>
-                    <p className="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus iusto officia aperiam, quos natus labore commodi porro explicabo, cum exercitationem nihil aspernatur fugiat placeat maiores, dolorum illum. Laborum, ipsum!</p>
-                </div>
-                <img src={textImage} alt="imagem do projeto" className="projects-images" />
+                <img src={geminada} alt="imagem do projeto" className="projects-images" />
             </div>
         </div>
         
