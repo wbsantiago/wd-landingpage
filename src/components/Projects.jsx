@@ -2,7 +2,7 @@ import "./projects.css"
 import textImage from "../assets/espoço-projeto.png"
 import sobradoImage from "../assets/sobrado-imagem.png"
 import houseImage from "../assets/casa-imagem.png"
-import geminada from "../assets/geminadas.png" 
+import geminada from "../assets/geminadas.png"
 
 function Projects() {
     return (
