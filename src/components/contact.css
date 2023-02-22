@@ -3,12 +3,31 @@
     background: var(--blue-color);
     padding-top: 64px;
     color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background: var(--lightblue-color);
+  /* box-shadow: 0px -1px 15px var(--gray-color); */
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 100px; */
+  align-items: center;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 16px;
 }
 
 .contact-box-bg {
-    margin: auto;
     height: 64vh;
-    max-width: 1024px;
+    width: 1024px;
     background: var(--lightblue-color);
     border-radius: 24px;
     display: flex;
