@@ -1,9 +1,8 @@
 import "./contact.css"
 import * as Label from '@radix-ui/react-label';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons'
+import { faArrowAltCircleUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import emailIcon from "../assets/envelope-icon.svg"
 
 function Contact() {
     return (
@@ -14,8 +13,14 @@ function Contact() {
                         <h3>Entre em contato</h3>
                         <p className="contact-box-description">Bem-vindo ao nosso setor de Contato! Queremos ouvir de você. Compartilhe suas dúvidas, avaliações e necessidades de serviço. Nossa equipe está pronta para ajudá-lo a atingir seus objetivos. </p>
                         <div className="contact-email-div">
-                            <img className="contact-img-icon" src={emailIcon} alt="imagem de um envelope, referência para email" />
-                            <p>wd.arquitetura_engenharia@outlook.com</p>
+                            <div>
+                                <FontAwesomeIcon className="icons-s" icon={faPhone} size="2x"/>
+                                <p>+55 (43) 99987-6724</p>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon className="icons-s" icon={faEnvelope} size="2x"/>
+                                <p>wd.arquitetura_engenharia@outlook.com</p>
+                            </div>
                         </div>
                     </div>
                     <form className="contact-form">                       
