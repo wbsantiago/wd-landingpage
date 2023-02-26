@@ -91,3 +91,30 @@
     border-radius: 8px;
     box-shadow: -25px -25px var(--blue-color);
 }
+
+@media only screen and (max-width: 1440px) {
+    .mid-box-intern {
+        max-width: 1050px;
+        gap: 300px;
+        font-size: 16px;
+    }
+
+    .projects-title {
+        font-size: 28px;
+    }
+    
+    .projects-images {
+        width: 400px;
+        border-radius: 6px;
+    }
+
+    .projects-description {
+        margin: 0;
+    }
+
+    .projects-block {
+        justify-content: space-around;
+        width: 1080px;
+    }
+
+}

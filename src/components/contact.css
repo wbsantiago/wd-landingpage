@@ -1,12 +1,12 @@
 .contact {
-    height: calc(100vh - 64px);
-    background: var(--blue-color);
-    padding-top: 64px;
-    color: var(--white-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  height: calc(100vh - 64px);
+  background: var(--blue-color);
+  padding-top: 64px;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact-box-bg {
@@ -164,4 +164,23 @@ footer {
 .footer-social-links {
   display: flex;
   gap: 16px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contact-box-bg {
+    height: 64vh;
+  }
+
+  .contact-box-text {
+    height: 430px;
+  }
+
+  .contact-form {
+    gap: 10px;
+  }
+
+  .contact-box-text > h3 {
+    font-size: 32px;
+  }
+
 }

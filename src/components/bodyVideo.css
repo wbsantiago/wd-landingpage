@@ -58,3 +58,24 @@ h1 {
 .body-button-contact:active, .body-button-projects:active {
     transform: scale(0.9);
 }
+
+
+@media only screen and (max-width: 1440px) {
+    .header-nav-ul {
+        gap: 32px;
+    }
+
+    .body-top-div {
+        max-width: 1050px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }    
+
+    .body-top-text {
+        font-size: 64px;
+        margin: 144px 0 42px 0;
+    }
+
+}
