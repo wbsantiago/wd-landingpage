@@ -20,11 +20,11 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
   font-family: 'Fira Sans', sans-serif;
 }
 
 html {
-  /* background: linear-gradient(to right, var(--white-color)20%, lightgray 85%, var(--gray-color)); */
   background: linear-gradient(to right, var(--white-color), lightgray);
 }
 

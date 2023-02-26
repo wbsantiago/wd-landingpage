@@ -3,8 +3,61 @@ import * as Label from '@radix-ui/react-label';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 function Contact() {
+
+    const [contact, setContact] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        honeypot: "",
+        message: "",
+        replyTo: "@",
+        accessKey: "aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk"
+    })
+
+    const [response, setResponse] = useState ({
+        type: "",
+        message: ""
+    })
+
+    const handleChange = async e =>
+        setContact({ ...contact, [e.target.name]: e.target.value })
+
+    const handleSubmit = async e => {
+        e.preventDefault();
+        try {
+            const res = await fetch("https://api.staticforms.xyz/submit", {
+                method: "POST",
+                body: JSON.stringify(contact),
+                headers: { "Content-Type": "application/json"}
+            })
+            
+            const json = await res.json()
+            console.log(contact)
+
+            if (json.sucess) {
+                setResponse({
+                    type: "success",
+                    message: "Thank you for reaching out to us."
+                })
+            } else {
+                setResponse ({
+                    type: "error",
+                    message: json.message
+                })
+            } 
+        } catch (e) {
+            console.log("An error occured", e);
+            setResponse({
+                type: "error",
+                message: "An error occured while submitthing the form"
+            });
+        }
+    }
+
     return (
         <div id="contact" className="contact">
             <div className="contact-box-bg">
@@ -23,39 +76,35 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <form className="contact-form">                       
+                    <form className="contact-form" action="https://api.staticforms.xyz/submit" method="post" onSubmit={handleSubmit}>                       
                         <div className="contact-form-box">
-                            <Label.Root className="LabelRoot" htmlFor="name">
-                            Name
-                            </Label.Root>
-                            <input className="Input" type="text" id="name" />
+                            <Label.Root className="LabelRoot" htmlFor="name" >Name</Label.Root>
+                            <input className="Input" type="text" name="name" id="name" autoComplete="off" onChange={handleChange} required/>
                         </div>
+                    
                         <div className="contact-form-box">
-                            <Label.Root className="LabelRoot" htmlFor="email">
-                            E-mail
-                            </Label.Root>
-                            <input className="Input" type="email" id="email" />
+                            <Label.Root className="LabelRoot" htmlFor="email">E-mail</Label.Root>
+                            <input className="Input" type="email" name="email" id="email" onChange={handleChange} required/>
                         </div>
+                    
                         <div className="contact-form-box">
-                            <Label.Root className="LabelRoot" htmlFor="number">
-                            Telefone
-                            </Label.Root>
-                            <input className="Input" type="number" id="phone" />
+                            <Label.Root className="LabelRoot" htmlFor="number">Telefone</Label.Root>
+                            <input className="Input" type="text" name="phone" id="phone" onChange={handleChange} />
                         </div>
+                    
                         <div className="contact-form-box">
-                            <Label.Root className="LabelRoot" htmlFor="subject">
-                            Assunto
-                            </Label.Root>
-                            <input className="Input" type="text" id="subject" />
+                            <Label.Root className="LabelRoot" htmlFor="subject">Assunto</Label.Root>
+                            <input className="Input" type="text" name="subject" id="subject" onChange={handleChange} required />
                         </div>
+                    
                         <div className="contact-form-box">
-                            <Label.Root className="LabelRoot" htmlFor="message">
-                            Mensagem
-                            </Label.Root>
-                            <textarea className="textArea" type="text" id="message" placeholder="Deixe aqui sua mensagem." rows="8" />
+                            <Label.Root className="LabelRoot" htmlFor="message">Mensagem</Label.Root>
+                            <textarea className="textArea" type="text" name="message" id="message" placeholder="Deixe aqui sua mensagem." rows="8" onChange={handleChange} required />
                         </div>  
 
+                        <input type="hidden" name="redirectTo" value="http://localhost:5173/#contact" />
                         <button className="contact-btn" type="submit">Enviar</button>                      
+                    
                     </form>
                 </div>
             </div>
