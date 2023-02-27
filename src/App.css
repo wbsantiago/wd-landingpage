@@ -38,3 +38,10 @@ html {
   z-index: -999;
   object-fit: cover;
 }
+
+@media only screen and (max-height: 678px) {
+  .background-video {
+    height: calc(100vh - 64px);
+    top: 64px;
+  }
+}

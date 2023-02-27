@@ -61,9 +61,6 @@ h1 {
 
 
 @media only screen and (max-width: 1440px) {
-    .header-nav-ul {
-        gap: 32px;
-    }
 
     .body-top-div {
         max-width: 1050px;
@@ -78,4 +75,14 @@ h1 {
         margin: 144px 0 42px 0;
     }
 
+}
+
+@media only screen and (max-height: 678px) {
+    .body-top-div {
+        height: calc(100vh - 64px);
+    }
+
+    .body-top-text {
+        margin: 100px 0 42px 0;
+    }
 }

@@ -57,3 +57,25 @@ a {
 .header-logo {
     width: 8em;
 }
+
+@media only screen and (max-width: 1440px) {
+    .header-nav-ul {
+        gap: 32px;
+    }
+}
+
+@media only screen and (max-height: 678px) {
+    .header {
+        height: 64px;
+    }
+
+    .header-logo {
+        width: 5.5em;
+    }
+
+    a {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    
+}
