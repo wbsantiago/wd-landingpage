@@ -25,11 +25,11 @@ function Projects() {
                 <img src={sobradoImage} alt="imagem do projeto" className="projects-images"/>
             </div>
             <div className="projects-block">
-                <img src={houseImage} alt="imagem do projeto" className="projects-images" />
                 <div className="projects-description">
                     <h3 className="projects-subtitle">Residência Térrea</h3>
                     <p className="projects-text">Residência térrea moderna com 2 quartos e 1 suíte master, cozinha conjugada com sala de jantar, sala de estar e área gourmet. A suíte é espaçosa e confortável, oferecendo privacidade e conforto para os moradores.</p>
                 </div>
+                <img src={houseImage} alt="imagem do projeto" className="projects-images" />
             </div>
             <div className="projects-block">
                 <div className="projects-description">

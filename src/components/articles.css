@@ -101,3 +101,31 @@
         width: 350px;
     }
 }
+
+@media only screen and (max-width: 786px) {
+    .articles {
+        width: 85%;
+    }
+    
+    .text-first-article, .text-second-article {
+        font-size: 14px;
+        width: 280px;
+    }
+    .title-first-article {
+        width: auto;
+    }
+    .title-second-article {
+        width: 300px;
+    }
+
+    .image-work {
+        width: 330px;
+    }
+    
+    .image-work2 {
+        width: 280px;
+    }
+    .first-article, .second-article {
+        justify-content: space-between;
+    }
+}

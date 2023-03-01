@@ -4,6 +4,7 @@ import BodyVideo from "./components/BodyVideo.jsx"
 import Articles from "./components/Articles.jsx"
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import Footer from "./components/Footer.jsx"
 import video from './assets/Video-Website-fast.mp4'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Articles />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </div>
   )
