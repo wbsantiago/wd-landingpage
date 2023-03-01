@@ -86,3 +86,55 @@ h1 {
         margin: 100px 0 42px 0;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .body-top-text {
+        font-size: 48px;
+        max-width: 500px;
+        margin-bottom: 24px;
+    }
+    h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .body-button-projects {
+        height: 44px;
+        width: 144px;
+    }
+    .body-button-contact {
+        height: 44px;
+        width: 192px;
+    }
+    .body-button-contact, .body-button-projects {
+        border-radius: 4px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .body-top-div {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .body-top-text {
+        margin: 0 0 42px 0;
+        text-align: center;
+        font-size: 81px;
+        max-width: 80%;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    .body-button-projects {
+        height: 64px;
+        width: 192px;
+    }
+    .body-button-contact {
+        height: 64px;
+        width: 384px;
+    }
+    .body-button-contact, .body-button-projects {
+        font-size: 20px;
+    }
+}

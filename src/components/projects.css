@@ -118,3 +118,27 @@
     }
 
 }
+
+@media only screen and (max-width: 1100px) {
+    .mid-box-intern {
+        max-width: 90%;
+        gap: auto;
+        font-size: 16px;
+    }
+
+    .projects-block {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .mid-box {
+        height: 15rem;
+    }
+    .mid-box-intern {
+        gap: 50px;
+    }
+    .projects-text {
+        width: 340px;
+    }
+}
