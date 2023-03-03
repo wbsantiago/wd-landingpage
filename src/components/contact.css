@@ -182,7 +182,7 @@
 
 @media only screen and (max-width: 912px) {
   .contact {
-    height: 60vh;
+    height: 65vh;
   }
   .contact-box {
     flex-direction: column;
@@ -212,5 +212,28 @@
   }
   .contact-form-wrap {
     gap: 8px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .contact {
+    height: 800px;
+  }
+  
+  .Input {
+    width: 325px;
+  }
+  .contact-btn {
+    width: 100%;
+  }
+  .mid-box-intern {
+    flex-direction: column-reverse;
+  }
+  .mid-box {
+    height: 20rem;
+    align-items: center;
+  }
+  .mid-box-intern-text {
+    text-align: center;
   }
 }

@@ -1,6 +1,6 @@
 import "./footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {

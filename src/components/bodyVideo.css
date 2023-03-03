@@ -138,3 +138,22 @@ h1 {
         font-size: 20px;
     }
 }
+
+@media only screen and (max-width: 540px) {
+    .body-top-text {
+        font-size: 56px;
+    }
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .body-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .body-button-projects {
+        margin-right: 0px;
+    }
+}

@@ -23,18 +23,18 @@ function Articles() {
         
         
             <div className="second-article">
-                <div 
-                    className='article-text-body'
-                >
-                    <h2 className="title-second-article">Projetos Elaborados especialmente para você!</h2>
-                    <p className="text-second-article">Quando se trata de construir, reformar ou decorar uma casa, muitas vezes os proprietários têm uma visão clara do que querem, mas não sabem como transformar essa visão em realidade. É aí que entra a WD Arquitetura e Engenharia. Com sua expertise e conhecimento técnico, nós podemos ajudar a transformar seus sonhos em uma casa que atenda todas as suas necessidades e desejos.</p>
-                </div>   
                 <img 
                     className="image-work2" 
                     src={esbocoProject} 
                     alt='imagem de reunião no escritório'
                 >
                 </img>
+                <div 
+                    className='article-text-body'
+                >
+                    <h2 className="title-second-article">Projetos Elaborados especialmente para você!</h2>
+                    <p className="text-second-article">Quando se trata de construir, reformar ou decorar uma casa, muitas vezes os proprietários têm uma visão clara do que querem, mas não sabem como transformar essa visão em realidade. É aí que entra a WD Arquitetura e Engenharia. Com sua expertise e conhecimento técnico, nós podemos ajudar a transformar seus sonhos em uma casa que atenda todas as suas necessidades e desejos.</p>
+                </div>   
             </div>
         </div>
     )
