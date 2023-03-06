@@ -157,3 +157,19 @@ h1 {
         margin-right: 0px;
     }
 }
+
+@media only screen and (max-width: 414px) {
+    .body-top-div {
+        width: 100%;
+    }
+    
+    .body-top-text {
+        font-size: 44px;
+    }
+    .body-buttons {
+        gap: 36px;
+    }
+    .body-button-contact {
+        width: 300px;
+    }
+}

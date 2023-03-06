@@ -9,12 +9,7 @@
 .header-nav {
     display: flex;
     align-items: center;
-}
-
-.header-nav-ul {
-    display: flex;
     gap: 44px;
-    align-items: center;
 }
 
 a {
@@ -63,6 +58,7 @@ a {
     color: var(--white-color);
     visibility: hidden;
     opacity: 0;
+    position: absolute;
 }
 
 
@@ -95,6 +91,7 @@ a {
     .nav-btn {
         visibility: visible;
         opacity: 1;
+        position: static;
     }
     .header-nav-ul {
         flex-direction: column;

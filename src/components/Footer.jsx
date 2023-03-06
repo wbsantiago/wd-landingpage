@@ -9,7 +9,7 @@ function Footer() {
                 <div className="footer-div">
                     <div className="footer-div-container">
                         <h3 className="footer-title">Redes Sociais</h3>
-                        <div className="footer-div-icons">
+                        <div className="footer-div-icons social-media">
                             <a href="https://www.instagram.com/wd_arquitetura_engenharia/" target="_blank" ><FontAwesomeIcon className="icons-s gap" icon={faInstagram} size="2x"/></a>
                             <a href="https://www.facebook.com/wdarquiteturaeengenharia" target="_blank" ><FontAwesomeIcon className="icons-s gap" icon={faFacebook} size="2x"/></a>
                         </div>
