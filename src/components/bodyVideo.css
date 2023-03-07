@@ -1,9 +1,9 @@
 .body-top-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 1280px;
     color: var(--white-color);
-    display: flex;
-    align-items: left;
-    flex-direction: column;
     margin: auto;
     padding-left: 192px;
     height: calc(100vh - 96px);
@@ -12,7 +12,7 @@
 .body-top-text {
     max-width: 800px;
     font-size: 72px;
-    margin: 192px 0 52px 0;
+    margin-bottom: 52px;
     text-align: left;
 }
 
@@ -72,46 +72,41 @@ h1 {
 
     .body-top-text {
         font-size: 64px;
-        margin: 144px 0 42px 0;
+        margin-bottom: 42px;
     }
 
 }
 
-@media only screen and (max-height: 678px) {
+@media only screen and (max-height: 678px) and (max-width: 420px) {
     .body-top-div {
         height: calc(100vh - 64px);
+        padding-left: 0px;
     }
 
     .body-top-text {
-        margin: 100px 0 42px 0;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .body-top-text {
+        margin-bottom: 42px;
         font-size: 48px;
         max-width: 500px;
-        margin-bottom: 24px;
+        text-align: center;
+    }
+    .body-button-contact, .body-button-projects {
+        height: 44px;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    .body-button-projects {
+        width: 144px;
+    }
+    .body-button-contact {
+        width: 192px;
     }
     h1 {
         font-size: 28px;
         margin-bottom: 40px;
     }
-    .body-button-projects {
-        height: 44px;
-        width: 144px;
-    }
-    .body-button-contact {
-        height: 44px;
-        width: 192px;
-    }
-    .body-button-contact, .body-button-projects {
-        border-radius: 4px;
-        font-size: 16px;
-    }
 }
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 1024px) and (min-height: 678px) {
     .body-top-div {
         justify-content: center;
         align-items: center;
@@ -156,6 +151,7 @@ h1 {
     .body-button-projects {
         margin-right: 0px;
     }
+    
 }
 
 @media only screen and (max-width: 414px) {
@@ -171,5 +167,25 @@ h1 {
     }
     .body-button-contact {
         width: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .body-top-text {
+        font-size: 36px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .body-button-projects {
+        height: 48px;
+        width: 128px;
+    }
+    .body-button-contact {
+        height: 48px;
+        width: 192px;
+    }
+    .body-button-contact, .body-button-projects {
+        font-size: 16px;
     }
 }

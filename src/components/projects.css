@@ -11,7 +11,7 @@
 
 .mid-box {
     background: var(--blue-color);
-    height: 30vh;
+    height: 300px;
     width: 100%;
     color: var(--white-color);
     display: flex;
@@ -97,6 +97,9 @@
 }
 
 @media only screen and (max-width: 1440px) {
+    .projects-block {
+        padding: 0.5em;
+    }
     .mid-box-intern {
         max-width: 1050px;
         gap: 300px;
@@ -127,6 +130,9 @@
     .projects-block {
         height: auto;
     }
+    .mid-box {
+        height: 200px;
+        }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -182,5 +188,15 @@
 
     .projects-images {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .projects-block {
+        padding: 0;
+        height: 480px;
+    }
+    .projects-text {
+        font-size: 16px;
     }
 }

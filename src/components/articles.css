@@ -93,6 +93,9 @@
     .title-first-article, .text-first-article, .text-second-article, .title-second-article {
         font-weight: 500;
     }
+    .first-article, .second-article {
+        height: 400px;
+    }
 }
 
 @media only screen and (max-width: 912px) {
@@ -110,7 +113,6 @@
     .articles {
         width: 85%;
     }
-    
     .text-first-article, .text-second-article {
         font-size: 14px;
         width: 280px;
@@ -121,7 +123,6 @@
     .title-second-article {
         width: 300px;
     }
-
     .image-work, .image-work2 {
         width: 330px;
     }
@@ -153,5 +154,11 @@
     }
     .image-work2 {
         margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .image-work, .image-work2 {
+        width: 240px;
     }
 }
