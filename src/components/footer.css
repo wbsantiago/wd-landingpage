@@ -60,6 +60,9 @@ footer {
     .footer-div {
         padding-top: 0.8rem;
     }
+    .footer-title {
+        margin-bottom: 8px;
+    }
 }
 
 @media only screen and (max-width: 414px) {

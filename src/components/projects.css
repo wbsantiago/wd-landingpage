@@ -128,7 +128,7 @@
 
 @media only screen and (max-height: 678px) {
     .projects-block {
-        height: auto;
+        height: 380px;
     }
     .mid-box {
         height: 200px;
@@ -166,7 +166,7 @@
     .projects-block {
         flex-direction: column;
         width: 80%;
-        height: 550px;;
+        height: 600px;
     }
     .projects-block:nth-of-type(3) {
         flex-direction: column;

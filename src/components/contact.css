@@ -143,13 +143,10 @@
   }
 }
 
-@media only screen and (max-height: 750px) {
-  .contact {
-    height: 100vh;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
+  .contact {
+    height: 700px;
+  }
   .contact-box {
     width: 85%;
     height: auto;
@@ -166,6 +163,12 @@
   }
   .contact-form-wrap {
     justify-content: space-between;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .contact {
+    height: 100vh;
   }
 }
 
