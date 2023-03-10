@@ -145,7 +145,7 @@
 
 @media only screen and (max-width: 1024px) {
   .contact {
-    height: 700px;
+    height: 800px;
   }
   .contact-box {
     width: 85%;
@@ -169,6 +169,15 @@
 @media only screen and (max-height: 750px) {
   .contact {
     height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .contact-form-box {
+    width: 100%;
+  }
+  .Input {
+    width: 100%;
   }
 }
 
