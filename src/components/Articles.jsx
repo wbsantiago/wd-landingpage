@@ -21,7 +21,7 @@ function Articles() {
                     className='article-text-body'
                 >
                     <h2 className="title-first-article">Quem Somos?</h2>
-                    <p className="text-first-article">Somos um escritório de arquitetura e engenharia localizado na cidade de Arapongas/PR. Fundado por <span className="bold-text">Willian B. Santiago</span>, graduado em Engenharia Civil e Pós-graduando em Engenharia de Avaliação e Perícias, e <span className="bold-text">Deivid R. Ribeiro</span>, graduado em Arquitetura e Urbanismo, somos uma equipe altamente qualificada e comprometida em oferecer soluções eficientes e personalizadas para nossos clientes.</p>
+                    <p className="text-first-article">Somos um escritório de arquitetura e engenharia localizado na cidade de Arapongas/PR. Fundado por <span className="bold-text">Willian B. Santiago</span>, graduado em Engenharia Civil e Pós-graduando em Engenharia de Avaliação e Perícias, e <span className="bold-text">Deivid R. R.</span>, graduado em Arquitetura e Urbanismo, somos uma equipe altamente qualificada e comprometida em oferecer soluções eficientes e personalizadas para nossos clientes.</p>
                 </div>   
             </div>
         

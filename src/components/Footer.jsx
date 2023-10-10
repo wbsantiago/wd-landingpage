@@ -19,7 +19,7 @@ function Footer() {
                         <div className="footer-div-icons">
                             <div>
                                 <FontAwesomeIcon className="icons-s" icon={faPhone} />
-                                <p>+55 (43) 99987-6724</p>
+                                <p>+55 (11) 99999-9999</p>
                             </div>
                             <div>
                                 <FontAwesomeIcon className="icons-s" icon={faEnvelope} />
@@ -37,7 +37,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="copyright">
-                    <p>WD Arquitetura e Engenharia 2023. Todos os direitos reservados.</p>
+                    <p>Projeto base elaborado para o site intitucional da WD. Todos os direitos reservados.</p>
                 </div>
             </footer>
     )
