@@ -1,3 +1,8 @@
+.body {
+    background: url("../assets/casa-body-mobile.png");
+    background-size: cover;
+}
+
 .body-top-div {
     display: flex;
     flex-direction: column;
