@@ -14,7 +14,7 @@ O projeto consiste em uma landing page de um escritório de engenharia e arquite
 
 ## Demo
 
-To access the landing page click in this link => https://wdsite-landingpage.netlify.app/
+ => https://wdsite-landingpage.netlify.app/
 
 ## Execução do projeto
 
